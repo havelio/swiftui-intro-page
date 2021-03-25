@@ -13,37 +13,18 @@ struct ContentView: View {
         let pageControl = UIPageControl.appearance()
         pageControl.currentPageIndicatorTintColor = .label
         pageControl.pageIndicatorTintColor = .separator
-   }
-    
-    @State private var colorScheme: ColorScheme = .light
+    }
     
     var body: some View {
         VStack {
             TabView {
-                PageContentView(colorScheme: colorScheme)
-                PageContentView(colorScheme: colorScheme)
-                PageContentView(colorScheme: colorScheme)
+                PageContentView()
+                PageContentView()
+                PageContentView()
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
-
-            HStack {
-                Button(action: {
-                    self.colorScheme = .light
-                }, label: {
-                    ButtonTextView(text: "Light", disable: colorScheme == .light)
-                })
-                Button(action: {
-                    self.colorScheme = .dark
-                }, label: {
-                    ButtonTextView(text: "Dark", disable: colorScheme == .dark)
-                })
-            }
-            .padding()
-            .padding(.bottom, 20)
+            .padding(.bottom, 40)
         }
-//        .background(Color.gray.opacity(0.1))
-        .ignoresSafeArea()
-        .preferredColorScheme(colorScheme)
     }
 }
 

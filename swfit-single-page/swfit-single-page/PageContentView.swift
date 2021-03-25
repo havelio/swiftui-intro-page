@@ -9,8 +9,6 @@ import SwiftUI
 
 struct PageContentView: View {
     
-    @State var colorScheme: ColorScheme
-    
     var body: some View {
         VStack(spacing: 20) {
             Image("dummy")
@@ -36,6 +34,6 @@ struct PageContentView: View {
 
 struct PageContentView_Previews: PreviewProvider {
     static var previews: some View {
-        PageContentView(colorScheme: .light)
+        PageContentView()
     }
 }
