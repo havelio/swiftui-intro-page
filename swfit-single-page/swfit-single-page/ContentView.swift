@@ -41,7 +41,7 @@ struct ContentView: View {
             .padding()
             .padding(.bottom, 20)
         }
-        .background(Color.gray.opacity(0.2))
+//        .background(Color.gray.opacity(0.1))
         .ignoresSafeArea()
         .preferredColorScheme(colorScheme)
     }
