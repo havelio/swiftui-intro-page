@@ -1,4 +1,4 @@
-# Swift Single Page [![Swift Version](https://img.shields.io/badge/Swift-5.0-F16D39.svg?style=flat)](https://github.com/apple/swift) [![SwiftUI Version](https://img.shields.io/badge/SwiftUI-2.0-blue.svg?style=flat)](https://github.com/apple/swift) 
+# Swift Intro Page [![Swift Version](https://img.shields.io/badge/Swift-5.0-F16D39.svg?style=flat)](https://github.com/apple/swift) [![SwiftUI Version](https://img.shields.io/badge/SwiftUI-2.0-blue.svg?style=flat)](https://github.com/apple/swift) 
 
 Simple application with 1 page only
 
